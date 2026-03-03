@@ -1,0 +1,123 @@
+@media (max-width: 400px) {
+    .div {
+        width: 90%;
+        padding: 15px;
+    }
+    section img {
+        width: 120px;
+        height: 120px;
+    }
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+header h1{
+    tect-align: center;
+    margin: 10px 0;
+    margin-bottom: 10px;
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #f0dfdf;
+    margin: 0;
+    padding: 20px;
+}
+section{
+    margin-top: 20px;
+    margin: 5px 0;
+    
+}
+section img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+section img:hover {
+    transform: scale(1.05); /* makes it slightly bigger on hover */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* adds a subtle shadow */
+}
+
+
+.div{
+    background-color: #cfc9c9;
+    width: 350px;
+margin: 50px auto;
+    padding: 20px;
+    border-radius: 15px;
+     box-shadow: 0 15px 30px rgba(0,0,0,0.12);
+    background: linear-gradient(180deg, #fff, #fefefe);
+}
+.div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #720f21;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    cursor: hand;
+    transition: all 0.3s ease;
+}
+
+
+button:hover {
+    background-color: #2a080e;
+    transform: scale(1.05); /* makes it slightly bigger on hover */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* adds a subtle shadow */
+    user-select: none;
+}
+button:active {
+    transform: scale(0.95); /* slightly shrink when clicked */
+    background-color: #50101a; /* darker shade for click feedback */
+}
+/*#about-details {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #a26565;
+    border-radius: 8px;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+    overflow: hidden;
+    opacity: 0;
+    max-height: 0;
+    color: white; /* text color so it’s visible on the background 
+}*/
+
+
+#about-details.show {
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 1;
+    max-height: 200px; /* adjust as needed */
+}
+.badge {
+    background-color: #ddcccf;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-right: 5px;
+}
+/*#about-details p {
+    margin: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+}*/
+
+#about-details.show {
+    max-height: 200px; /* adjust as needed */
+}
+    
